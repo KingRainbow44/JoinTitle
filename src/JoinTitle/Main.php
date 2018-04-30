@@ -14,7 +14,7 @@ class Main extends PluginBase implements Listener{
       @mkdir($this->getDataFolder());
       $this->saveDefaultConfig();
       $this->getServer()->getPluginManager()->registerEvents($this, $this);
-      $this->getServer()->getLogger()->notice("JoinTitle by Enrick3344 Enabled!");
+      $this->getServer()->getLogger()->notice("JoinTitle by georgianYT Enabled!");
   }
   
   public function translateColors($string){
